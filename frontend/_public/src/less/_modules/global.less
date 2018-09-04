@@ -1,0 +1,25 @@
+/*
+    Created on : 2.09.2018
+    Author     : Internetservice
+*/
+@media screen and(min-width: @tabletViewportWidth) {
+    .content-main {
+        .unitize-padding(40);
+    }
+    .content-main--inner {
+        .unitize-padding(0, 12, 0, 12);
+        .unitize-margin(0);
+        width: auto;
+    }
+}
+@media screen and (min-width: @desktopViewportWidth) {
+    .content-main {
+        .unitize(margin-top, 0);
+        .unitize(margin-bottom, 0);
+    }
+    .content-main--inner {
+        .unitize-padding(0, 12, 0, 12);
+        .unitize-margin(0);
+    }
+}
+
